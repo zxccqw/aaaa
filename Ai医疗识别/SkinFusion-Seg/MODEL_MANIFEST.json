@@ -1,0 +1,22 @@
+{
+  "name": "SkinFusion-Seg",
+  "version": "1.0.1",
+  "parameters": 1069307,
+  "input_channels": 3,
+  "input_size": [
+    256,
+    256
+  ],
+  "threshold": 0.5,
+  "checkpoint_sha256": "be728c6c4a3f8852e29c975c83922229c59d36f785f5ff5ea9080430f7b8cfda",
+  "runtime_source_sha256": {
+    "model/complex_ops.py": "aebf4a80cce40452f8b11796f38ab845febcc46dab0500cf807d2809fb872c62",
+    "model/context.py": "50a8909138c2395802b2351efadd18a1eb2e33ea179fe728cc84eaf1f81b85e4",
+    "model/network.py": "9dd36a36f54ab4f676de1e5141f3c669227335d72329df29d5bd75e1da4c09a9",
+    "model/resample.py": "2d1826e97ff2177edd75ee1dba73150bde18f9492b94e99223f4e0c028aa906a",
+    "model/__init__.py": "dd85d0922fba989a5efb9e40e5a5c43984c1e443b63fff054b4f65ef60871089",
+    "service/app.py": "1cc10f0f27712fc6025d9c163a8b46b034d25b33acc43c7dc26f7169f413f524",
+    "service/inference.py": "18d227ed350ab6c4d7efc87d4ed52a39bdef36e2df6d228095a3fedc33409b17",
+    "service/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  }
+}

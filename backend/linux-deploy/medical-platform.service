@@ -1,0 +1,22 @@
+[Unit]
+Description=Medical AI Platform (SKIN Backend)
+After=network.target
+
+[Service]
+Type=simple
+User=medical
+Group=medical
+WorkingDirectory=/opt/medical-platform/backend
+EnvironmentFile=/etc/medical-platform.env
+Environment=PORT=5175
+Environment=SKIN_STORAGE=/opt/medical-platform/data
+Environment=FRONTEND_LOCATION=file:/opt/medical-platform/frontend/
+ExecStart=/usr/bin/java -Xms128m -Xmx512m -jar /opt/medical-platform/backend/skin-backend-1.0.0.jar
+Restart=always
+RestartSec=5
+SuccessExitStatus=143
+StandardOutput=journal
+StandardError=journal
+
+[Install]
+WantedBy=multi-user.target

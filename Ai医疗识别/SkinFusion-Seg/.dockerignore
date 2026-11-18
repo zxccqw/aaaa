@@ -1,0 +1,8 @@
+.test_deps
+__pycache__
+**/__pycache__
+.venv
+.git
+tests
+test_outputs
+*.zip

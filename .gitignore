@@ -1,0 +1,11 @@
+# 忽略运行环境与构建产物
+backend/logs/
+backend/target/classes/
+backend/target/test-classes/
+backend/target/surefire-reports/
+backend/target/maven-status/
+backend/target/generated-sources/
+backend/target/generated-test-sources/
+Ai医疗识别/SkinFusion-Seg/.venv/
+Ai医疗识别/SkinFusion-Seg/logs/
+**/__pycache__/

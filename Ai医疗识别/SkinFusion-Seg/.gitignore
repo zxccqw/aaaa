@@ -1,0 +1,6 @@
+.test_deps/
+__pycache__/
+*.pyc
+.venv/
+.env
+test_outputs/
